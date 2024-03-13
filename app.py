@@ -1,10 +1,10 @@
 import joblib
 import cv2
 import numpy as np
-from tensorflow.keras.saving import load_model
-from tensorflow.keras.utils import load_img,img_to_array
-# from keras.models import load_model
-# from keras.preprocessing.image import img_to_array,load_img
+# from tensorflow.keras.saving import load_model
+# from tensorflow.keras.utils import load_img,img_to_array
+from keras.models import load_model
+from keras.preprocessing.image import img_to_array,load_img
 import base64
 from fastapi import FastAPI,Request
 from fastapi.middleware.cors import CORSMiddleware
